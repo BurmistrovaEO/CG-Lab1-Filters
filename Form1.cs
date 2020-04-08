@@ -107,5 +107,11 @@ namespace L_1_filters
             Filters filter = new SobelFilter();
             backgroundWorker1.RunWorkerAsync(filter);
         }
+
+        private void резкостьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filter = new SharpnessFilter();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }
