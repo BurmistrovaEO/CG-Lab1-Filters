@@ -89,5 +89,11 @@ namespace L_1_filters
             Filters filter = new GrayScaleFilter();
             backgroundWorker1.RunWorkerAsync(filter);
         }
+
+        private void сепияToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filter = new SepiaFilter();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }
