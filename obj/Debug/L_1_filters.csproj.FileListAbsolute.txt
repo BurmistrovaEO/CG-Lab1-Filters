@@ -1,0 +1,10 @@
+C:\Users\Kate\Desktop\Лабы КГ\L_1_filters\L_1_filters\bin\Debug\L_1_filters.exe.config
+C:\Users\Kate\Desktop\Лабы КГ\L_1_filters\L_1_filters\bin\Debug\L_1_filters.exe
+C:\Users\Kate\Desktop\Лабы КГ\L_1_filters\L_1_filters\bin\Debug\L_1_filters.pdb
+C:\Users\Kate\Desktop\Лабы КГ\L_1_filters\L_1_filters\obj\Debug\L_1_filters.csprojAssemblyReference.cache
+C:\Users\Kate\Desktop\Лабы КГ\L_1_filters\L_1_filters\obj\Debug\L_1_filters.Form1.resources
+C:\Users\Kate\Desktop\Лабы КГ\L_1_filters\L_1_filters\obj\Debug\L_1_filters.Properties.Resources.resources
+C:\Users\Kate\Desktop\Лабы КГ\L_1_filters\L_1_filters\obj\Debug\L_1_filters.csproj.GenerateResource.cache
+C:\Users\Kate\Desktop\Лабы КГ\L_1_filters\L_1_filters\obj\Debug\L_1_filters.csproj.CoreCompileInputs.cache
+C:\Users\Kate\Desktop\Лабы КГ\L_1_filters\L_1_filters\obj\Debug\L_1_filters.exe
+C:\Users\Kate\Desktop\Лабы КГ\L_1_filters\L_1_filters\obj\Debug\L_1_filters.pdb
