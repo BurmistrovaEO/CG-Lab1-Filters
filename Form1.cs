@@ -95,5 +95,11 @@ namespace L_1_filters
             Filters filter = new SepiaFilter();
             backgroundWorker1.RunWorkerAsync(filter);
         }
+
+        private void контрастToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filter = new ContrastFilter();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }
