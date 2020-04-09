@@ -113,5 +113,16 @@ namespace L_1_filters
             Filters filter = new SharpnessFilter();
             backgroundWorker1.RunWorkerAsync(filter);
         }
+
+        private void тиснениеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filter = new GrayScaleFilter();
+            Bitmap resultImage = filter.processIm(image);
+            pictureBox1.Image = resultImage;
+            pictureBox1.Refresh();
+            Bitmap im = new Bitmap(pictureBox1.Image);
+            Filters filter1 = new EmbossingFilter(im);
+            backgroundWorker1.RunWorkerAsync(filter1);
+        }
     }
 }
