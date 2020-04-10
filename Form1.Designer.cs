@@ -50,6 +50,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.цветоваяКоррекцияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.серыйМирToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.растяжениеКонтрастностиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -224,7 +225,8 @@
             // цветоваяКоррекцияToolStripMenuItem
             // 
             this.цветоваяКоррекцияToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.серыйМирToolStripMenuItem});
+            this.серыйМирToolStripMenuItem,
+            this.растяжениеКонтрастностиToolStripMenuItem});
             this.цветоваяКоррекцияToolStripMenuItem.Name = "цветоваяКоррекцияToolStripMenuItem";
             this.цветоваяКоррекцияToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.цветоваяКоррекцияToolStripMenuItem.Text = "Цветовая коррекция";
@@ -235,6 +237,13 @@
             this.серыйМирToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.серыйМирToolStripMenuItem.Text = "\"Серый мир\"";
             this.серыйМирToolStripMenuItem.Click += new System.EventHandler(this.серыйМирToolStripMenuItem_Click);
+            // 
+            // растяжениеКонтрастностиToolStripMenuItem
+            // 
+            this.растяжениеКонтрастностиToolStripMenuItem.Name = "растяжениеКонтрастностиToolStripMenuItem";
+            this.растяжениеКонтрастностиToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
+            this.растяжениеКонтрастностиToolStripMenuItem.Text = "Растяжение контрастности";
+            this.растяжениеКонтрастностиToolStripMenuItem.Click += new System.EventHandler(this.растяжениеКонтрастностиToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -280,6 +289,7 @@
         private System.Windows.Forms.ToolStripMenuItem тиснениеToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem цветоваяКоррекцияToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem серыйМирToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem растяжениеКонтрастностиToolStripMenuItem;
     }
 }
 

@@ -131,5 +131,12 @@ namespace L_1_filters
             filter.calculateAvg(image);
             backgroundWorker1.RunWorkerAsync(filter);
         }
+
+        private void растяжениеКонтрастностиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filter = new AutolevelsFilter();
+            filter.calculateMinMax(image);
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }
