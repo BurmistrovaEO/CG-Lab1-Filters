@@ -124,5 +124,12 @@ namespace L_1_filters
             Filters filter1 = new EmbossingFilter(im);
             backgroundWorker1.RunWorkerAsync(filter1);
         }
+
+        private void серыйМирToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filter = new GrayWorldFilter();
+            filter.calculateAvg(image);
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }
