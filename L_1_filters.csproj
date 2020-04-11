@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutolevelsFilter.cs" />
+    <Compile Include="BaseColorCorrectionFilter.cs" />
     <Compile Include="BlurFilter.cs" />
     <Compile Include="ContrastFilter.cs" />
     <Compile Include="EmbossingFilter.cs" />

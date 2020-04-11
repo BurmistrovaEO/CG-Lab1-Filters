@@ -13,6 +13,8 @@ namespace L_1_filters
     public partial class Form1 : Form
     {
         Bitmap image;
+        Color pickedColor;
+        Color pickedbadColor;
         public Form1()
         {
             InitializeComponent();
@@ -137,6 +139,25 @@ namespace L_1_filters
             Filters filter = new AutolevelsFilter();
             filter.calculateMinMax(image);
             backgroundWorker1.RunWorkerAsync(filter);
+        }
+
+        private void задатьВручнуюToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ColorDialog outercolorDialog = new ColorDialog();
+            {
+                if (outercolorDialog.ShowDialog() == DialogResult.OK)
+                {
+                    pickedbadColor = outercolorDialog.Color;
+                    ColorDialog colorDialog = new ColorDialog();
+                    if (colorDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        pickedColor = colorDialog.Color;
+                        BaseColorCorrectionFilter filter = new BaseColorCorrectionFilter();
+                        filter.idColor(image,pickedbadColor,pickedColor);
+                        backgroundWorker1.RunWorkerAsync(filter);
+                    }
+                }
+            }
         }
     }
 }

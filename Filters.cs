@@ -55,6 +55,7 @@ namespace L_1_filters
         public int maxR = 0;
         public int maxG = 0;
         public int maxB = 0;
+
         public void calculateMinMax(Bitmap sourceImage)
         {
             for (int i = 0; i < sourceImage.Width; i++)

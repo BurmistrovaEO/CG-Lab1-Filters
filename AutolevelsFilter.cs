@@ -9,6 +9,7 @@ namespace L_1_filters
 {
     class AutolevelsFilter : Filters
     {
+
         protected override Color calculateNewPixelColor(Bitmap sourceImage, int x, int y)
         {
             Color color = sourceImage.GetPixel(x,y);

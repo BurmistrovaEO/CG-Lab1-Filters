@@ -51,6 +51,9 @@
             this.цветоваяКоррекцияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.серыйМирToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.растяжениеКонтрастностиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.коррекцияСОпорнымЦветомToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.задатьВручнуюToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.указатьНаФотоToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -226,7 +229,8 @@
             // 
             this.цветоваяКоррекцияToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.серыйМирToolStripMenuItem,
-            this.растяжениеКонтрастностиToolStripMenuItem});
+            this.растяжениеКонтрастностиToolStripMenuItem,
+            this.коррекцияСОпорнымЦветомToolStripMenuItem});
             this.цветоваяКоррекцияToolStripMenuItem.Name = "цветоваяКоррекцияToolStripMenuItem";
             this.цветоваяКоррекцияToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.цветоваяКоррекцияToolStripMenuItem.Text = "Цветовая коррекция";
@@ -244,6 +248,28 @@
             this.растяжениеКонтрастностиToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
             this.растяжениеКонтрастностиToolStripMenuItem.Text = "Растяжение контрастности";
             this.растяжениеКонтрастностиToolStripMenuItem.Click += new System.EventHandler(this.растяжениеКонтрастностиToolStripMenuItem_Click);
+            // 
+            // коррекцияСОпорнымЦветомToolStripMenuItem
+            // 
+            this.коррекцияСОпорнымЦветомToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.задатьВручнуюToolStripMenuItem,
+            this.указатьНаФотоToolStripMenuItem});
+            this.коррекцияСОпорнымЦветомToolStripMenuItem.Name = "коррекцияСОпорнымЦветомToolStripMenuItem";
+            this.коррекцияСОпорнымЦветомToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.коррекцияСОпорнымЦветомToolStripMenuItem.Text = "Коррекция с опорным цветом";
+            // 
+            // задатьВручнуюToolStripMenuItem
+            // 
+            this.задатьВручнуюToolStripMenuItem.Name = "задатьВручнуюToolStripMenuItem";
+            this.задатьВручнуюToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.задатьВручнуюToolStripMenuItem.Text = "Задать вручную";
+            this.задатьВручнуюToolStripMenuItem.Click += new System.EventHandler(this.задатьВручнуюToolStripMenuItem_Click);
+            // 
+            // указатьНаФотоToolStripMenuItem
+            // 
+            this.указатьНаФотоToolStripMenuItem.Name = "указатьНаФотоToolStripMenuItem";
+            this.указатьНаФотоToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.указатьНаФотоToolStripMenuItem.Text = "Указать на фото";
             // 
             // Form1
             // 
@@ -290,6 +316,9 @@
         private System.Windows.Forms.ToolStripMenuItem цветоваяКоррекцияToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem серыйМирToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem растяжениеКонтрастностиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem коррекцияСОпорнымЦветомToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem задатьВручнуюToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem указатьНаФотоToolStripMenuItem;
     }
 }
 
