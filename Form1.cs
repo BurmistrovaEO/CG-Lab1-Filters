@@ -159,5 +159,30 @@ namespace L_1_filters
                 }
             }
         }
+
+        private void сохранитьРезультатToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFile = new SaveFileDialog();
+            saveFile.Filter = "Image files|*.png;*.jpg;*.bmp|All files(*.*)|*.*";
+            saveFile.Title = "Сохранить файл";
+            saveFile.ShowDialog();
+            if (saveFile.FileName != "")
+            {
+                System.IO.FileStream fs = (System.IO.FileStream)saveFile.OpenFile();
+                switch(saveFile.FilterIndex)
+                {
+                    case 1:
+                        this.pictureBox1.Image.Save(fs, System.Drawing.Imaging.ImageFormat.Png);
+                        break;
+                    case 2:
+                        this.pictureBox1.Image.Save(fs, System.Drawing.Imaging.ImageFormat.Bmp);
+                        break;
+                    case 3:
+                        this.pictureBox1.Image.Save(fs, System.Drawing.Imaging.ImageFormat.Jpeg);
+                        break;
+                }
+                fs.Close();
+            }
+        }
     }
 }
