@@ -184,5 +184,20 @@ namespace L_1_filters
                 fs.Close();
             }
         }
+        Bitmap imagetmp;
+        private void показатьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BarGraph bargr = new BarGraph();
+            imagetmp = (Bitmap)pictureBox1.Image;
+            bargr.calculateBarGraphBars(imagetmp);
+            pictureBox1.Image = bargr.CreateBarGraph(imagetmp,bargr.resultmas);
+            pictureBox1.Refresh();
+        }
+
+        private void вернутьсяКИзображениюToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = imagetmp;
+            pictureBox1.Refresh();
+        }
     }
 }

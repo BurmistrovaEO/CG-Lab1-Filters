@@ -10,7 +10,6 @@ namespace L_1_filters
 {
     class GrayWorldFilter:Filters
     {
-
         protected override Color calculateNewPixelColor(Bitmap sourceImage, int x, int y)
         {           
             Color sourceColor = sourceImage.GetPixel(x,y);
