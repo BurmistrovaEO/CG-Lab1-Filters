@@ -199,5 +199,11 @@ namespace L_1_filters
             pictureBox1.Image = imagetmp;
             pictureBox1.Refresh();
         }
+
+        private void расширениеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filter = new Dilation();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }
