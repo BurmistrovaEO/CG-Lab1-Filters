@@ -217,5 +217,11 @@ namespace L_1_filters
             OpeningFilter filter = new OpeningFilter();
             backgroundWorker1.RunWorkerAsync(filter);
         }
+
+        private void закрытиеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ClosingFilter filter = new ClosingFilter();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }

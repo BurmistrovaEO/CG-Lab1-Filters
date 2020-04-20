@@ -50,6 +50,7 @@
     <Compile Include="BarGraph.cs" />
     <Compile Include="BaseColorCorrectionFilter.cs" />
     <Compile Include="BlurFilter.cs" />
+    <Compile Include="ClosingFilter.cs" />
     <Compile Include="ContrastFilter.cs" />
     <Compile Include="EmbossingFilter.cs" />
     <Compile Include="Erosion.cs" />

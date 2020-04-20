@@ -61,6 +61,7 @@
             this.расширениеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.сужениеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.открытиеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.закрытиеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -309,7 +310,8 @@
             this.операцииМатморфологииToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.расширениеToolStripMenuItem,
             this.сужениеToolStripMenuItem,
-            this.открытиеToolStripMenuItem});
+            this.открытиеToolStripMenuItem,
+            this.закрытиеToolStripMenuItem});
             this.операцииМатморфологииToolStripMenuItem.Name = "операцииМатморфологииToolStripMenuItem";
             this.операцииМатморфологииToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
             this.операцииМатморфологииToolStripMenuItem.Text = "Операции матморфологии";
@@ -334,6 +336,13 @@
             this.открытиеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.открытиеToolStripMenuItem.Text = "Открытие";
             this.открытиеToolStripMenuItem.Click += new System.EventHandler(this.открытиеToolStripMenuItem_Click);
+            // 
+            // закрытиеToolStripMenuItem
+            // 
+            this.закрытиеToolStripMenuItem.Name = "закрытиеToolStripMenuItem";
+            this.закрытиеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.закрытиеToolStripMenuItem.Text = "Закрытие";
+            this.закрытиеToolStripMenuItem.Click += new System.EventHandler(this.закрытиеToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -390,6 +399,7 @@
         private System.Windows.Forms.ToolStripMenuItem расширениеToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem сужениеToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem открытиеToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem закрытиеToolStripMenuItem;
         // private System.Windows.Forms.ToolStripMenuItem показатьГистограммуИзображенияToolStripMenuItem;
     }
 }
