@@ -223,5 +223,11 @@ namespace L_1_filters
             ClosingFilter filter = new ClosingFilter();
             backgroundWorker1.RunWorkerAsync(filter);
         }
+
+        private void gradToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GradFilter filter = new GradFilter();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }
