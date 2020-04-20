@@ -59,6 +59,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.операцииМатморфологииToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.расширениеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.сужениеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -305,7 +306,8 @@
             // операцииМатморфологииToolStripMenuItem
             // 
             this.операцииМатморфологииToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.расширениеToolStripMenuItem});
+            this.расширениеToolStripMenuItem,
+            this.сужениеToolStripMenuItem});
             this.операцииМатморфологииToolStripMenuItem.Name = "операцииМатморфологииToolStripMenuItem";
             this.операцииМатморфологииToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
             this.операцииМатморфологииToolStripMenuItem.Text = "Операции матморфологии";
@@ -316,6 +318,13 @@
             this.расширениеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.расширениеToolStripMenuItem.Text = "Расширение";
             this.расширениеToolStripMenuItem.Click += new System.EventHandler(this.расширениеToolStripMenuItem_Click);
+            // 
+            // сужениеToolStripMenuItem
+            // 
+            this.сужениеToolStripMenuItem.Name = "сужениеToolStripMenuItem";
+            this.сужениеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.сужениеToolStripMenuItem.Text = "Сужение";
+            this.сужениеToolStripMenuItem.Click += new System.EventHandler(this.сужениеToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -370,6 +379,7 @@
         private System.Windows.Forms.ToolStripMenuItem вернутьсяКИзображениюToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem операцииМатморфологииToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem расширениеToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem сужениеToolStripMenuItem;
         // private System.Windows.Forms.ToolStripMenuItem показатьГистограммуИзображенияToolStripMenuItem;
     }
 }
