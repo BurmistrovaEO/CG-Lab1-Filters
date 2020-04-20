@@ -63,6 +63,7 @@
             this.открытиеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.закрытиеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gradToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.topHatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -313,7 +314,8 @@
             this.сужениеToolStripMenuItem,
             this.открытиеToolStripMenuItem,
             this.закрытиеToolStripMenuItem,
-            this.gradToolStripMenuItem});
+            this.gradToolStripMenuItem,
+            this.topHatToolStripMenuItem});
             this.операцииМатморфологииToolStripMenuItem.Name = "операцииМатморфологииToolStripMenuItem";
             this.операцииМатморфологииToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
             this.операцииМатморфологииToolStripMenuItem.Text = "Операции матморфологии";
@@ -352,6 +354,13 @@
             this.gradToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.gradToolStripMenuItem.Text = "Grad";
             this.gradToolStripMenuItem.Click += new System.EventHandler(this.gradToolStripMenuItem_Click);
+            // 
+            // topHatToolStripMenuItem
+            // 
+            this.topHatToolStripMenuItem.Name = "topHatToolStripMenuItem";
+            this.topHatToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.topHatToolStripMenuItem.Text = "Top Hat";
+            this.topHatToolStripMenuItem.Click += new System.EventHandler(this.topHatToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -410,6 +419,7 @@
         private System.Windows.Forms.ToolStripMenuItem открытиеToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem закрытиеToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gradToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem topHatToolStripMenuItem;
         // private System.Windows.Forms.ToolStripMenuItem показатьГистограммуИзображенияToolStripMenuItem;
     }
 }

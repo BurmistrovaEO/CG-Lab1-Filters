@@ -229,5 +229,11 @@ namespace L_1_filters
             GradFilter filter = new GradFilter();
             backgroundWorker1.RunWorkerAsync(filter);
         }
+
+        private void topHatToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TopHatFilter filter = new TopHatFilter();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }
