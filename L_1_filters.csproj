@@ -49,6 +49,7 @@
     <Compile Include="AutolevelsFilter.cs" />
     <Compile Include="BarGraph.cs" />
     <Compile Include="BaseColorCorrectionFilter.cs" />
+    <Compile Include="BlackHatFilter.cs" />
     <Compile Include="BlurFilter.cs" />
     <Compile Include="ClosingFilter.cs" />
     <Compile Include="ContrastFilter.cs" />

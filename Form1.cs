@@ -235,5 +235,11 @@ namespace L_1_filters
             TopHatFilter filter = new TopHatFilter();
             backgroundWorker1.RunWorkerAsync(filter);
         }
+
+        private void blackHatToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BlackHatFilter filter = new BlackHatFilter();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }
