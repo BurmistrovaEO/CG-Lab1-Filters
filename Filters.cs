@@ -20,19 +20,19 @@ namespace L_1_filters
             return value;
         }
         protected abstract Color calculateNewPixelColor(Bitmap sourceImage, int x, int y);
-        public Bitmap processImage(Bitmap sourceImage, BackgroundWorker worker) //////3333333
-        {
-            Bitmap resultImage = new Bitmap(sourceImage.Width, sourceImage.Height);
-            for (int i = 0; i < sourceImage.Width; i++)
-            {
-                worker.ReportProgress((int)((float)i / sourceImage.Width * 100));
-                for (int j = 0; j < sourceImage.Height; j++)
-                {
-                    resultImage.SetPixel(i, j, calculateNewPixelColor(sourceImage, i, j));
-                }
-            }
-            return resultImage;
-        }
+        public abstract Bitmap processImage(Bitmap sourceImage, BackgroundWorker worker); //////3333333
+        //{
+        //    Bitmap resultImage = new Bitmap(sourceImage.Width, sourceImage.Height);
+        //    for (int i = 0; i < sourceImage.Width; i++)
+        //    {
+        //        worker.ReportProgress((int)((float)i / sourceImage.Width * 100));
+        //        for (int j = 0; j < sourceImage.Height; j++)
+        //        {
+        //            resultImage.SetPixel(i, j, calculateNewPixelColor(sourceImage, i, j));
+        //        }
+        //    }
+        //    return resultImage;
+        //}
         public Bitmap processIm(Bitmap sourceImage)
         {
             Bitmap resultImage = new Bitmap(sourceImage.Width, sourceImage.Height);

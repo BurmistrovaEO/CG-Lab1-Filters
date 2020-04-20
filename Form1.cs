@@ -40,7 +40,7 @@ namespace L_1_filters
 
         private void инверсияToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Filters filter = new InvertFilter();
+            InvertFilter filter = new InvertFilter();
             backgroundWorker1.RunWorkerAsync(filter);
             //Bitmap resultImage = filter.processImage(image);
             //pictureBox1.Image = resultImage;
@@ -94,7 +94,7 @@ namespace L_1_filters
 
         private void сепияToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Filters filter = new SepiaFilter();
+            SepiaFilter filter = new SepiaFilter();
             backgroundWorker1.RunWorkerAsync(filter);
         }
 
@@ -209,6 +209,12 @@ namespace L_1_filters
         private void сужениеToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Filters filter = new Erosion();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
+
+        private void открытиеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpeningFilter filter = new OpeningFilter();
             backgroundWorker1.RunWorkerAsync(filter);
         }
     }

@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel;
 
 namespace L_1_filters
 {
@@ -14,6 +15,19 @@ namespace L_1_filters
             Color sourceColor = sourceImage.GetPixel(x,y);
             Color resultColor = Color.FromArgb(Clamp(sourceColor.R + 30,0,255),Clamp(sourceColor.G + 30,0,255), Clamp(sourceColor.B +30,0,255));
             return resultColor;
+        }
+        public override Bitmap processImage(Bitmap sourceImage, BackgroundWorker worker) //////3333333
+        {
+            Bitmap resultImage = new Bitmap(sourceImage.Width, sourceImage.Height);
+            for (int i = 0; i < sourceImage.Width; i++)
+            {
+                worker.ReportProgress((int)((float)i / sourceImage.Width * 100));
+                for (int j = 0; j < sourceImage.Height; j++)
+                {
+                    resultImage.SetPixel(i, j, calculateNewPixelColor(sourceImage, i, j));
+                }
+            }
+            return resultImage;
         }
     }
 }
