@@ -253,5 +253,11 @@ namespace L_1_filters
             Transition filter = new Transition();
             backgroundWorker1.RunWorkerAsync(filter);
         }
+
+        private void эффектСтеклаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GlassFilter filter = new GlassFilter();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }

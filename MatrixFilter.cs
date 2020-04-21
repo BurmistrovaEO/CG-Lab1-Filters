@@ -35,7 +35,7 @@ namespace L_1_filters
                 }
             return Color.FromArgb(Clamp((int)resultR,0,255), Clamp((int)resultG, 0, 255), Clamp((int)resultB, 0, 255));
         }
-        public override Bitmap processImage(Bitmap sourceImage, BackgroundWorker worker) //////3333333
+        public override Bitmap processImage(Bitmap sourceImage, BackgroundWorker worker) 
         {
             Bitmap resultImage = new Bitmap(sourceImage.Width, sourceImage.Height);
             for (int i = 0; i < sourceImage.Width; i++)

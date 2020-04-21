@@ -15,7 +15,7 @@ namespace L_1_filters
         {
             mMinuedImage = minuendImage;
         }
-        public override Bitmap processImage(Bitmap sourceImage, BackgroundWorker worker) //////3333333
+        public override Bitmap processImage(Bitmap sourceImage, BackgroundWorker worker) 
         {
             Bitmap resultImage = new Bitmap(sourceImage.Width, sourceImage.Height);
             for (int i = 0; i < sourceImage.Width; i++)

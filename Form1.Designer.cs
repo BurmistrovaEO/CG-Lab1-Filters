@@ -67,6 +67,7 @@
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.button1 = new System.Windows.Forms.Button();
             this.сдвигToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.эффектСтеклаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -175,7 +176,8 @@
             this.фильтрГауссаToolStripMenuItem,
             this.фильтрСобеляToolStripMenuItem,
             this.резкостьToolStripMenuItem,
-            this.сдвигToolStripMenuItem});
+            this.сдвигToolStripMenuItem,
+            this.эффектСтеклаToolStripMenuItem});
             this.матричныеToolStripMenuItem.Name = "матричныеToolStripMenuItem";
             this.матричныеToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
             this.матричныеToolStripMenuItem.Text = "Матричные";
@@ -389,6 +391,13 @@
             this.сдвигToolStripMenuItem.Text = "Сдвиг";
             this.сдвигToolStripMenuItem.Click += new System.EventHandler(this.сдвигToolStripMenuItem_Click);
             // 
+            // эффектСтеклаToolStripMenuItem
+            // 
+            this.эффектСтеклаToolStripMenuItem.Name = "эффектСтеклаToolStripMenuItem";
+            this.эффектСтеклаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.эффектСтеклаToolStripMenuItem.Text = "Эффект стекла";
+            this.эффектСтеклаToolStripMenuItem.Click += new System.EventHandler(this.эффектСтеклаToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -450,6 +459,7 @@
         private System.Windows.Forms.ToolStripMenuItem blackHatToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem медианToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem сдвигToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem эффектСтеклаToolStripMenuItem;
         // private System.Windows.Forms.ToolStripMenuItem показатьГистограммуИзображенияToolStripMenuItem;
     }
 }
