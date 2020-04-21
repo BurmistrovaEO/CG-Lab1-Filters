@@ -69,6 +69,7 @@
     <Compile Include="InvertFilter.cs" />
     <Compile Include="Dilation.cs" />
     <Compile Include="MatrixFilter.cs" />
+    <Compile Include="MedianFilter.cs" />
     <Compile Include="OpeningFilter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

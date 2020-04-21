@@ -65,6 +65,7 @@
             this.gradToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.topHatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.blackHatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.медианToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -121,7 +122,8 @@
             this.матричныеToolStripMenuItem,
             this.комбинированныеToolStripMenuItem,
             this.цветоваяКоррекцияToolStripMenuItem,
-            this.операцииМатморфологииToolStripMenuItem});
+            this.операцииМатморфологииToolStripMenuItem,
+            this.медианToolStripMenuItem});
             this.фильтрыToolStripMenuItem.Name = "фильтрыToolStripMenuItem";
             this.фильтрыToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.фильтрыToolStripMenuItem.Text = "Фильтры";
@@ -371,6 +373,13 @@
             this.blackHatToolStripMenuItem.Text = "Black Hat";
             this.blackHatToolStripMenuItem.Click += new System.EventHandler(this.blackHatToolStripMenuItem_Click);
             // 
+            // медианToolStripMenuItem
+            // 
+            this.медианToolStripMenuItem.Name = "медианToolStripMenuItem";
+            this.медианToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
+            this.медианToolStripMenuItem.Text = "Медианный фильтр";
+            this.медианToolStripMenuItem.Click += new System.EventHandler(this.медианToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -430,6 +439,7 @@
         private System.Windows.Forms.ToolStripMenuItem gradToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem topHatToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem blackHatToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem медианToolStripMenuItem;
         // private System.Windows.Forms.ToolStripMenuItem показатьГистограммуИзображенияToolStripMenuItem;
     }
 }

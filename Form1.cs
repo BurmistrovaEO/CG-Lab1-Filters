@@ -241,5 +241,11 @@ namespace L_1_filters
             BlackHatFilter filter = new BlackHatFilter();
             backgroundWorker1.RunWorkerAsync(filter);
         }
+
+        private void медианToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MedianFilter filter = new MedianFilter();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }
