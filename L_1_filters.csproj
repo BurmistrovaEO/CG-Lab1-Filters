@@ -78,6 +78,7 @@
     <Compile Include="SobelFilter.cs" />
     <Compile Include="Subtraction.cs" />
     <Compile Include="TopHatFilter.cs" />
+    <Compile Include="Transition.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

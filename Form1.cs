@@ -247,5 +247,11 @@ namespace L_1_filters
             MedianFilter filter = new MedianFilter();
             backgroundWorker1.RunWorkerAsync(filter);
         }
+
+        private void сдвигToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Transition filter = new Transition();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }
